@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Воре Моров</title>
+</head>
+<body>
+	<!-- Игровое поле -->
+		<h1 style="text-align: center; font-family: Arial;" >Морской бой!</h1>
+		<div class="main">
+			<div class="row">
+				<div class="d-flex">
+					<!-- Первый ряд -->
+						<div class="block miss"></div> <!-- 1А-->
+
+						<div class="block miss"></div> <!-- 1Б-->
+
+						<div class="block miss"></div> <!-- 1В-->
+
+						<div class="block purple"></div> <!-- 1Г-->
+
+						<div class="block purple"></div> <!-- 1Д-->
+
+						<div class="block purple"></div> <!-- 1Е-->
+
+						<div class="block purple"></div> <!-- 1Ж-->
+
+						<div class="block miss"></div> <!-- 1З-->
+
+						<div class="block miss"></div> <!-- 1И-->
+
+						<div class="block miss"></div> <!-- 1К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Второй ряд -->
+						<div class="block miss"></div> <!-- 2А-->
+
+						<div class="block miss"></div> <!-- 2Б-->
+
+						<div class="block miss"></div> <!-- 2В-->
+
+						<div class="block miss"></div> <!-- 2Г-->
+
+						<div class="block miss"></div> <!-- 2Д-->
+
+						<div class="block miss"></div> <!-- 2Е-->
+
+						<div class="block miss"></div> <!-- 2Ж-->
+
+						<div class="block miss"></div> <!-- 2З-->
+
+						<div class="block miss"></div> <!-- 2И-->
+
+						<div class="block miss"></div> <!-- 2К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Третий ряд -->
+						<div class="block miss"></div> <!-- 3А-->
+
+						<div class="block blue"></div> <!-- 3Б-->
+
+						<div class="block miss"></div> <!-- 3В-->
+
+						<div class="block miss"></div> <!-- 3Г-->
+
+						<div class="block miss"></div> <!-- 3Д-->
+
+						<div class="block miss"></div> <!-- 3Е-->
+
+						<div class="block miss"></div> <!-- 3Ж-->
+
+						<div class="block miss"></div> <!-- 3З-->
+
+						<div class="block miss"></div> <!-- 3И-->
+
+						<div class="block blue"></div> <!-- 3К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Четвёртый ряд -->
+					<div class="block miss"></div> <!-- 4А-->
+
+					<div class="block miss"></div> <!-- 4Б-->
+
+					<div class="block miss"></div> <!-- 4В-->
+
+					<div class="block miss"></div> <!-- 4Г-->
+
+					<div class="block miss"></div> <!-- 4Д-->
+
+					<div class="block miss"></div> <!-- 4Е-->
+
+					<div class="block green"></div> <!-- 4Ж-->
+
+					<div class="block green"></div> <!-- 4З-->
+
+					<div class="block miss"></div> <!-- 4И-->
+
+					<div class="block miss"></div> <!-- 4К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Пятый ряд -->
+						<div class="block miss"></div> <!-- 5А-->
+
+						<div class="block yellow"></div> <!-- 5Б-->
+
+						<div class="block miss"></div> <!-- 5В-->
+
+						<div class="block miss"></div> <!-- 5Г-->
+
+						<div class="block miss"></div> <!-- 5Д-->
+
+						<div class="block miss"></div> <!-- 5Е-->
+
+						<div class="block miss"></div> <!-- 5Ж-->
+
+						<div class="block miss"></div> <!-- 5З-->
+
+						<div class="block miss"></div> <!-- 5И-->
+
+						<div class="block miss"></div> <!-- 5К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Шестой ряд -->
+						<div class="block miss"></div> <!-- 6А-->
+
+						<div class="block yellow"></div> <!-- 6Б-->
+
+						<div class="block miss"></div> <!-- 6В-->
+
+						<div class="block miss"></div> <!-- 6Г-->
+
+						<div class="block miss"></div> <!-- 6Д-->
+
+						<div class="block blue"></div> <!-- 6Е-->
+
+						<div class="block miss"></div> <!-- 6Ж-->
+
+						<div class="block miss"></div> <!-- 6З-->
+
+						<div class="block miss"></div> <!-- 6И-->
+
+						<div class="block miss"></div> <!-- 6К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Седьмой ряд -->
+						<div class="block miss"></div> <!-- 7А-->
+
+						<div class="block yellow"></div> <!-- 7Б-->
+
+						<div class="block miss"></div> <!-- 7В-->
+
+						<div class="block miss"></div> <!-- 7Г-->
+
+						<div class="block miss"></div> <!-- 7Д-->
+
+						<div class="block miss"></div> <!-- 7Е-->
+
+						<div class="block miss"></div> <!-- 7Ж-->
+
+						<div class="block miss"></div> <!-- 7З-->
+
+						<div class="block miss"></div> <!-- 7И-->
+
+						<div class="block miss"></div> <!-- 7К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Восьмой ряд -->
+						<div class="block miss"></div> <!-- 8А-->
+
+						<div class="block miss"></div> <!-- 8Б-->
+
+						<div class="block miss"></div> <!-- 8В-->
+
+						<div class="block miss"></div> <!-- 8Г-->
+
+						<div class="block miss"></div> <!-- 8Д-->
+
+						<div class="block miss"></div> <!-- 8Е-->
+
+						<div class="block yellow"></div> <!-- 8Ж-->
+
+						<div class="block miss"></div> <!-- 8З-->
+
+						<div class="block green"></div> <!-- 8И-->
+
+						<div class="block green"></div> <!-- 8К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Девятый ряд -->
+						<div class="block green"></div> <!-- 9А-->
+
+						<div class="block green"></div> <!-- 9Б-->
+
+						<div class="block miss"></div> <!-- 9В-->
+
+						<div class="block miss"></div> <!-- 9Г-->
+
+						<div class="block miss"></div> <!-- 9Д-->
+
+						<div class="block miss"></div> <!-- 9Е-->
+
+						<div class="block yellow"></div> <!-- 9Ж-->
+
+						<div class="block miss"></div> <!-- 9З-->
+
+						<div class="block miss"></div> <!-- 9И-->
+
+						<div class="block miss"></div> <!-- 9К-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="d-flex">
+					<!-- Десятый ряд -->
+						<div class="block miss"></div> <!-- 10А-->
+
+						<div class="block miss"></div> <!-- 10Б-->
+
+						<div class="block miss"></div> <!-- 10В-->
+
+						<div class="block blue"></div> <!-- 10Г-->
+
+						<div class="block miss"></div> <!-- 10Д-->
+
+						<div class="block miss"></div> <!-- 10Е-->
+
+						<div class="block yellow"></div> <!-- 10Ж-->
+
+						<div class="block miss"></div> <!-- 10З-->
+
+						<div class="block miss"></div> <!-- 10И-->
+
+						<div class="block miss"></div> <!-- 10К-->
+				</div>
+			</div>
+		</div>
+
+<script type="text/javascript">
+
+
+	let purple = document.querySelectorAll(".purple")
+	let yellow = document.querySelectorAll(".yellow")
+	let green = document.querySelectorAll(".green")
+	let blue = document.querySelectorAll(".blue")
+	let miss = document.querySelectorAll(".miss")
+
+	for (let i=0; i<4; i=i+1) {
+		purple[i].onclick = function() {
+			purple[i].style.backgroundColor = "purple";
+		}
+	}
+
+	for (let i=0; i<6; i=i+1) {
+		yellow[i].onclick = function() {
+			yellow[i].style.backgroundColor = "yellow";
+		}
+	}
+
+	for (let i=0; i<6; i=i+1) {
+		green[i].onclick = function() {
+			green[i].style.backgroundColor = "green";
+		}
+	}
+
+	for (let i=0; i<4; i=i+1) {
+		blue[i].onclick = function() {
+			blue[i].style.backgroundColor = "blue";
+		}
+	}
+
+	for (let i=0; i<80; i=i+1) {
+		miss[i].onclick = function() {
+			miss[i].style.backgroundColor = "gray";
+		}
+	}
+
+</script>
+
+</body>
+</html>
